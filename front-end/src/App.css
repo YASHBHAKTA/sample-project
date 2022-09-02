@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -42,6 +40,14 @@
   background-color: skyblue;
 }
 
+.inputBox{
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid skyblue;
+}
+
 .nav-ul li a{
   color: #fff;
   padding: 5px;
@@ -58,4 +64,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.register{
+  margin-left: 30%;
+}
+
+.registerbutton{
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: skyblue;
+  border: 1px solid;
+  cursor: pointer;
 }
